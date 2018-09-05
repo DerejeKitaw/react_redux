@@ -5,7 +5,7 @@ test('Should setup add expense action object with provided values', () => {
     description: 'Rent',
     note: 'March bill',
     amount: 990,
-    createdAt: 10000
+    createdAt: 1000
   };
   const action = addExpense(expenseData);
   expect(action).toEqual({
